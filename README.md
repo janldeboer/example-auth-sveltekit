@@ -157,6 +157,25 @@ At minimum, configure:
 - `Referrer-Policy`
 - `Permissions-Policy`
 
+## Docker Usage
+
+### Build the Docker image
+
+```sh
+docker build -t sveltekit-auth-example .
+```
+
+### Run the container
+
+```sh
+docker run --env-file .env.local -p 3000:3000 sveltekit-auth-example
+```
+
+- The app will be available at [http://localhost:3000](http://localhost:3000).
+- Ensure your `.env.local` is set for production and contains correct callback URLs for your deployment.
+
+---
+
 ## Resources
 
 - **SvelteKit Documentation:** <https://kit.svelte.dev/docs>

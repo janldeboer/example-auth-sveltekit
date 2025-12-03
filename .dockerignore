@@ -1,0 +1,16 @@
+node_modules
+build
+.svelte-kit
+coverage
+dist
+*.log
+.env*
+.git
+.vscode
+.DS_Store
+test
+*.md
+*.ts
+*.tsx
+*.js.map
+*.d.ts
